@@ -1,41 +1,108 @@
 {
-	"recipes": {
-		"bread": {
-			"ingredients": {
-				"flour": 2,
-				"fuel": 1
-			},
-			"time": 4,
-			"building": "kitchen"
-		},
-		"flour": {
-			"ingredients": {
-				"wheat": 2
-			},
-			"time": 2,
-			"building": "grainMill"
-		},
-		"animalFeed": {
-			"ingredients": {
-				"wheat": 2
-			},
-			"time": 2,
-			"building": "grainMill"
-		},
-		"planks": {
-			"ingredients": {
-				"wood": 2
-			},
-			"time": 3,
-			"building": "lumberMill"
-		},
-		"paper": {
-			"ingredients": {
-				"wood": 2,
-				"water": 1
-			},
-			"time": 5,
-			"building": "lumberMill"
+	"buildings": [
+		{
+			"id": 1,
+			"ingredients": [
+				{
+					"amount": 15,
+					"item": "wood"
+				}
+			],
+			"item": "house"
 		}
-	}
+	],
+	"recipes": [
+		{
+			"id": 1,
+			"ingredients": [
+				{
+					"amount": 2,
+					"item": "flour"
+				},
+				{
+					"amount": 1,
+					"item": "fuel"
+				}
+			],
+			"item": "bread",
+			"time": 4,
+			"type": "kitchen"
+		},
+		{
+			"id": 2,
+			"ingredients": [
+				{
+					"amount": 2,
+					"item": "wheat"
+				}
+			],
+			"item": "flour",
+			"time": 2,
+			"type": "grainMill"
+		},
+		{
+			"id": 3,
+			"ingredients": [
+				{
+					"amount": 2,
+					"item": "wheat"
+				}
+			],
+			"item": "animalFeed",
+			"time": 2,
+			"type": "grainMill"
+		},
+		{
+			"id": 4,
+			"ingredients": [
+				{
+					"amount": 3,
+					"item": "wood"
+				}
+			],
+			"item": "planks",
+			"time": 3,
+			"type": "lumberMill"
+		},
+		{
+			"id": 5,
+			"ingredients": [
+				{
+					"amount": 2,
+					"item": "wood"
+				},
+				{
+					"amount": 1,
+					"item": "water"
+				}
+			],
+			"item": "paper",
+			"time": 5,
+			"type": "lumberMill"
+		},
+		{
+			"id": 6,
+			"ingredients": [
+				{
+					"amount": 1,
+					"item": "planks"
+				}
+			],
+			"item": "woodWheel",
+			"time": 5,
+			"type": "workshop"
+		},
+		{
+			"id": 7,
+			"ingredients": [
+				{
+					"amount": 1,
+					"item": "wool"
+				}
+			],
+			"item": "cloth",
+			"time": 4,
+			"type": "workshop"
+		}
+	]
 }
