@@ -1,39 +1,41 @@
 {
-	"bread": {
-		"ingredients": {
-			"flour": 2,
-			"fuel": 1
+	"recipes": {
+		"bread": {
+			"ingredients": {
+				"flour": 2,
+				"fuel": 1
+			},
+			"time": 4,
+			"building": "kitchen"
 		},
-		"time": 4,
-		"building": "kitchen"
-	},
-	"flour": {
-		"ingredients": {
-			"wheat": 2
+		"flour": {
+			"ingredients": {
+				"wheat": 2
+			},
+			"time": 2,
+			"building": "grainMill"
 		},
-		"time": 2,
-		"building": "grainMill"
-	},
-	"animalFeed": {
-		"ingredients": {
-			"wheat": 2
+		"animalFeed": {
+			"ingredients": {
+				"wheat": 2
+			},
+			"time": 2,
+			"building": "grainMill"
 		},
-		"time": 2,
-		"building": "grainMill"
-	},
-	"planks": {
-		"ingredients": {
-			"wood": 2
+		"planks": {
+			"ingredients": {
+				"wood": 2
+			},
+			"time": 3,
+			"building": "lumberMill"
 		},
-		"time": 3,
-		"building": "lumberMill"
-	},
-	"paper": {
-		"ingredients": {
-			"wood": 2,
-			"water": 1
-		},
-		"time": 5,
-		"building": "lumberMill"
+		"paper": {
+			"ingredients": {
+				"wood": 2,
+				"water": 1
+			},
+			"time": 5,
+			"building": "lumberMill"
+		}
 	}
 }
