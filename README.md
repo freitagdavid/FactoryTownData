@@ -1,0 +1,1 @@
+This is some data that I'm working on pulling out of factory town in order to help with the development of future tools. The game is in beta so expect changes. I'm happy to take pull requests. Hopefully I can automate this data mining at some point but until then it's gonna be manual.
