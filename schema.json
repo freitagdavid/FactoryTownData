@@ -1,99 +1,100 @@
 {
-	"title": "Factory Town Data",
-	"type": "object",
-	"required": [ "buildings", "recipes" ],
-	"properties": {
-		"recipes": {
-			"type": "array",
-			"title": "Recipes",
-			"uniqueItems": true,
-			"items": {
-				"type": "object",
-				"title": "Recipe",
-				"properties": {
-					"id": {
-						"type": "integer"
-					},
-					"name": {
-						"type": "string"
-					},
-					"ingredients": {
-						"type": "array",
-						"format": "table",
-						"title": "Ingredients",
-						"uniqueItems": true,
-						"items": {
-							"type": "object",
-							"title": "Ingredient",
-							"properties": {
-								"item": {
-									"type": "string"
-								},
-								"amount": {
-									"type": "integer"
-								}
-							}
-						}
-					},
-					"item": {
-						"type": "string"
-					},
-					"time": {
-						"type": "integer"
-					},
-					"type": {
-						"type": "string",
-						"watch": {
-							"buildings": "buildings"
-						},
-						"enumSource": [
-							{
-								"source": "buildings",
-								"value": "{{item.item}}",
-								"title": "{{item.name}}"
-							}
-						]
-					}
-				}
-			}
-		},
-		"buildings": {
-			"type": "array",
-			"title": "Buildings",
-			"uniqueItems": true,
-			"items": {
-				"type": "object",
-				"title": "Building",
-				"properties": {
-					"id": {
-						"type": "integer"
-					},
-					"name": {
-						"type": "string"
-					},
-					"ingredients": {
-						"type": "array",
-						"format": "table",
-						"title": "Ingredients",
-						"uniqueItems": true,
-						"items": {
-							"type": "object",
-							"title": "Ingredient",
-							"properties": {
-								"item": {
-									"type": "string"
-								},
-								"amount": {
-									"type": "integer"
-								}
-							}
-						}
-					},
-					"item": {
-						"type": "string"
-					}
-				}
-			}
-		}
-	}
+    "title": "Factory Town Data",
+    "type": "object",
+    "required": [ "buildings", "recipes" ],
+    "properties": {
+        "recipes": {
+            "type": "array",
+            "title": "Recipes",
+            "uniqueItems": true,
+            "items": {
+                "type": "object",
+                "title": "Recipe",
+                "headerTemplate": "{{i}} - {{self.name}}",
+                "properties": {
+                    "id": {
+                        "type": "integer",
+                        "default": "{{i}}"
+                    },
+                    "name": {
+                        "type": "string"
+                    },
+                    "ingredients": {
+                        "type": "array",
+                        "format": "table",
+                        "title": "Ingredients",
+                        "uniqueItems": true,
+                        "items": {
+                            "type": "object",
+                            "title": "Ingredient",
+                            "properties": {
+                                "item": {
+                                    "type": "string"
+                                },
+                                "amount": {
+                                    "type": "integer"
+                                }
+                            }
+                        }
+                    },
+                    "item": {
+                        "type": "string"
+                    },
+                    "time": {
+                        "type": "integer"
+                    },
+                    "type": {
+                        "type": "string",
+                        "title": "Building"
+                    },
+                    "alt": {
+                        "type": "boolean",
+                        "title": "Alternate Recipe?",
+                        "format": "checkbox",
+                        "default": false
+                    }
+                }
+            }
+        },
+        "buildings": {
+            "type": "array",
+            "title": "Buildings",
+            "uniqueItems": true,
+            "items": {
+                "type": "object",
+                "title": "Building",
+                "headerTemplate": "{{i}} - {{self.name}}",
+                "properties": {
+                    "id": {
+                        "type": "integer",
+                        "default": "{{i}}"
+                    },
+                    "name": {
+                        "type": "string"
+                    },
+                    "ingredients": {
+                        "type": "array",
+                        "format": "table",
+                        "title": "Ingredients",
+                        "uniqueItems": true,
+                        "items": {
+                            "type": "object",
+                            "title": "Ingredient",
+                            "properties": {
+                                "item": {
+                                    "type": "string"
+                                },
+                                "amount": {
+                                    "type": "integer"
+                                }
+                            }
+                        }
+                    },
+                    "item": {
+                        "type": "string"
+                    }
+                }
+            }
+        }
+    }
 }
