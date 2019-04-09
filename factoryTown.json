@@ -1,289 +1,289 @@
 {
-    "recipes": [
-        {
-            "id": 0,
-            "name": "Bread",
-            "ingredients": [
-                {
-                    "item": "flour",
-                    "amount": 2
-                },
-                {
-                    "item": "fuel",
-                    "amount": 1
-                }
-            ],
-            "item": "bread",
-            "time": 4,
-            "type": "kitchen",
-            "alt": false
-        },
-        {
-            "id": 2,
-            "name": "Flour",
-            "ingredients": [
-                {
-                    "item": "wheat",
-                    "amount": 2
-                }
-            ],
-            "item": "flour",
-            "time": 2,
-            "type": "grainMill",
-            "alt": false
-        },
-        {
-            "id": 3,
-            "name": "Animal Feed",
-            "ingredients": [
-                {
-                    "item": "wheat",
-                    "amount": 2
-                }
-            ],
-            "item": "animalFeed",
-            "time": 2,
-            "type": "grainMill",
-            "alt": false
-        },
-        {
-            "id": 4,
-            "name": "Planks",
-            "ingredients": [
-                {
-                    "item": "wood",
-                    "amount": 3
-                }
-            ],
-            "item": "planks",
-            "time": 3,
-            "type": "lumberMill",
-            "alt": false
-        },
-        {
-            "id": 5,
-            "name": "Paper",
-            "ingredients": [
-                {
-                    "item": "wood",
-                    "amount": 2
-                },
-                {
-                    "item": "water",
-                    "amount": 1
-                }
-            ],
-            "item": "paper",
-            "time": 5,
-            "type": "lumberMill",
-            "alt": false
-        },
-        {
-            "id": 6,
-            "name": "Wood Wheel",
-            "ingredients": [
-                {
-                    "item": "planks",
-                    "amount": 1
-                }
-            ],
-            "item": "woodWheel",
-            "time": 5,
-            "type": "workshop",
-            "alt": false
-        },
-        {
-            "id": 7,
-            "name": "Cloth",
-            "ingredients": [
-                {
-                    "item": "wool",
-                    "amount": 1
-                }
-            ],
-            "item": "cloth",
-            "time": 4,
-            "type": "workshop",
-            "alt": false
-        },
-        {
-            "id": 8,
-            "name": "Cloth",
-            "ingredients": [
-                {
-                    "item": "cotton",
-                    "amount": 2
-                }
-            ],
-            "item": "cloth",
-            "time": 4,
-            "type": "workshop",
-            "alt": true
-        }
-    ],
     "buildings": [
         {
             "id": 0,
-            "name": "House",
             "ingredients": [
                 {
-                    "item": "wood",
-                    "amount": 15
+                    "amount": 15,
+                    "item": "wood"
                 }
             ],
-            "item": "house"
+            "item": "house",
+            "name": "House"
         },
         {
             "id": 1,
-            "name": "Food Market",
             "ingredients": [
                 {
-                    "item": "goldCoin",
-                    "amount": 20
+                    "amount": 20,
+                    "item": "goldCoin"
                 },
                 {
-                    "item": "stone",
-                    "amount": 10
+                    "amount": 10,
+                    "item": "stone"
                 },
                 {
-                    "item": "planks",
-                    "amount": 10
+                    "amount": 10,
+                    "item": "planks"
                 }
             ],
-            "item": "foodMarket"
+            "item": "foodMarket",
+            "name": "Food Market"
         },
         {
             "id": 2,
-            "name": "General Store",
             "ingredients": [
                 {
-                    "item": "goldCoin",
-                    "amount": 100
+                    "amount": 100,
+                    "item": "goldCoin"
                 },
                 {
-                    "item": "stoneBrick",
-                    "amount": 10
+                    "amount": 10,
+                    "item": "stoneBrick"
                 },
                 {
-                    "item": "planks",
-                    "amount": 10
+                    "amount": 10,
+                    "item": "planks"
                 }
             ],
-            "item": "generalStore"
+            "item": "generalStore",
+            "name": "General Store"
         },
         {
             "id": 3,
-            "name": "Apothecary",
             "ingredients": [
                 {
-                    "item": "goldCoin",
-                    "amount": 250
+                    "amount": 250,
+                    "item": "goldCoin"
                 },
                 {
-                    "item": "stoneBrick",
-                    "amount": 20
+                    "amount": 20,
+                    "item": "stoneBrick"
                 },
                 {
-                    "item": "ironPlate",
-                    "amount": 20
+                    "amount": 20,
+                    "item": "ironPlate"
                 }
             ],
-            "item": "apothecary"
+            "item": "apothecary",
+            "name": "Apothecary"
         },
         {
             "id": 4,
-            "name": "Speciality Goods",
             "ingredients": [
                 {
-                    "item": "goldCoin",
-                    "amount": 500
+                    "amount": 500,
+                    "item": "goldCoin"
                 },
                 {
-                    "item": "stoneBrick",
-                    "amount": 40
+                    "amount": 40,
+                    "item": "stoneBrick"
                 },
                 {
-                    "item": "reinforcedPlank",
-                    "amount": 40
+                    "amount": 40,
+                    "item": "reinforcedPlank"
                 }
             ],
-            "item": "specialityGoods"
+            "item": "specialityGoods",
+            "name": "Speciality Goods"
         },
         {
             "id": 5,
-            "name": "School",
             "ingredients": [
                 {
-                    "item": "goldCoin",
-                    "amount": 50
+                    "amount": 50,
+                    "item": "goldCoin"
                 },
                 {
-                    "item": "stone",
-                    "amount": 20
+                    "amount": 20,
+                    "item": "stone"
                 },
                 {
-                    "item": "planks",
-                    "amount": 10
+                    "amount": 10,
+                    "item": "planks"
                 }
             ],
-            "item": "school"
+            "item": "school",
+            "name": "School"
         },
         {
             "id": 6,
-            "name": "Lumber Mill",
             "ingredients": [
                 {
-                    "item": "goldCoin",
-                    "amount": 50
+                    "amount": 50,
+                    "item": "goldCoin"
                 },
                 {
-                    "item": "stone",
-                    "amount": 5
+                    "amount": 5,
+                    "item": "stone"
                 },
                 {
-                    "item": "wood",
-                    "amount": 20
+                    "amount": 20,
+                    "item": "wood"
                 }
             ],
-            "item": "lumberMill"
+            "item": "lumberMill",
+            "name": "Lumber Mill"
         },
         {
             "id": 7,
-            "name": "Grain Mill",
             "ingredients": [
                 {
-                    "item": "goldCoin",
-                    "amount": 30
+                    "amount": 30,
+                    "item": "goldCoin"
                 },
                 {
-                    "item": "stone",
-                    "amount": 10
+                    "amount": 10,
+                    "item": "stone"
                 },
                 {
-                    "item": "planks",
-                    "amount": 10
+                    "amount": 10,
+                    "item": "planks"
                 }
             ],
-            "item": "grainMill"
+            "item": "grainMill",
+            "name": "Grain Mill"
         },
         {
             "id": 8,
-            "name": "Workshop",
             "ingredients": [
                 {
-                    "item": "goldCoin",
-                    "amount": 30
+                    "amount": 30,
+                    "item": "goldCoin"
                 },
                 {
-                    "item": "stone",
-                    "amount": 10
+                    "amount": 10,
+                    "item": "stone"
                 },
                 {
-                    "item": "planks",
-                    "amount": 10
+                    "amount": 10,
+                    "item": "planks"
                 }
             ],
-            "item": "workshop"
+            "item": "workshop",
+            "name": "Workshop"
+        }
+    ],
+    "recipes": [
+        {
+            "alt": false,
+            "id": 0,
+            "ingredients": [
+                {
+                    "amount": 2,
+                    "item": "flour"
+                },
+                {
+                    "amount": 1,
+                    "item": "fuel"
+                }
+            ],
+            "item": "bread",
+            "name": "Bread",
+            "time": 4,
+            "type": "kitchen"
+        },
+        {
+            "alt": false,
+            "id": 2,
+            "ingredients": [
+                {
+                    "amount": 2,
+                    "item": "wheat"
+                }
+            ],
+            "item": "flour",
+            "name": "Flour",
+            "time": 2,
+            "type": "grainMill"
+        },
+        {
+            "alt": false,
+            "id": 3,
+            "ingredients": [
+                {
+                    "amount": 2,
+                    "item": "wheat"
+                }
+            ],
+            "item": "animalFeed",
+            "name": "Animal Feed",
+            "time": 2,
+            "type": "grainMill"
+        },
+        {
+            "alt": false,
+            "id": 4,
+            "ingredients": [
+                {
+                    "amount": 3,
+                    "item": "wood"
+                }
+            ],
+            "item": "planks",
+            "name": "Planks",
+            "time": 3,
+            "type": "lumberMill"
+        },
+        {
+            "alt": false,
+            "id": 5,
+            "ingredients": [
+                {
+                    "amount": 2,
+                    "item": "wood"
+                },
+                {
+                    "amount": 1,
+                    "item": "water"
+                }
+            ],
+            "item": "paper",
+            "name": "Paper",
+            "time": 5,
+            "type": "lumberMill"
+        },
+        {
+            "alt": false,
+            "id": 6,
+            "ingredients": [
+                {
+                    "amount": 1,
+                    "item": "planks"
+                }
+            ],
+            "item": "woodWheel",
+            "name": "Wood Wheel",
+            "time": 5,
+            "type": "workshop"
+        },
+        {
+            "alt": false,
+            "id": 7,
+            "ingredients": [
+                {
+                    "amount": 1,
+                    "item": "wool"
+                }
+            ],
+            "item": "cloth",
+            "name": "Cloth",
+            "time": 4,
+            "type": "workshop"
+        },
+        {
+            "alt": true,
+            "id": 8,
+            "ingredients": [
+                {
+                    "amount": 2,
+                    "item": "cotton"
+                }
+            ],
+            "item": "cloth",
+            "name": "Cloth",
+            "time": 4,
+            "type": "workshop"
         }
     ]
 }
